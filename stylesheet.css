@@ -15,6 +15,28 @@ body {
 
 .logo {
     float: left; }
+
+
+
+.flotext h2{
+        position: absolute;
+        top: 30%;
+        left: 37%;
+        margin: 20px;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+.flotext span{
+        position: relative;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
       
 .container {
     position: absolute;
@@ -36,46 +58,14 @@ body {
     background-color: #ddd;
     color: black;}
 
-.box{          
-    position: relative;
-    }
-.stack-top{
-    z-index: 20px;
-    margin: 20px;
-    height: 300px;
-    width: 300px;
-    float: right;}
-
-.top {
-    background-color: aquamarine;
-    border-radius: 4px;
-    margin: 0;}
-    
-.mid { 
-        background:  rgb(46, 44, 50);
-        margin: 0;
-        margin-bottom: -40px;}
-
-.three {
-    display: inline-block;
-}
-
-.number1, { 
-    width: 300px;
-height: 300px;
-margin: 40px;
-}
-
-.number2 { 
-    width: 300px;
-height: 300px;
-margin: 40px;
-position: relative;}
-
-.number3 { 
-width: 300px;
-height: 300px;
-margin: 40px;}
+.flotext {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .flotext span{
     position: absolute;
@@ -86,9 +76,11 @@ margin: 40px;}
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-    .parent {
-        padding: 1rem;}
-
-    .inline-block-child {
-        display: inline-block;
-        padding-right: 70px;}
+.flotext span{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
