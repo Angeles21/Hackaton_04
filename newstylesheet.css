@@ -91,8 +91,10 @@ h3 {
     width:400px;
     height:600px;
     right: 80vh;
-    bottom:-90vh;
+    bottom: -100vh;
     background:yellow;
+    text-align: center;
+    margin: 2px;
     z-index:100;}
 
   .red__box{
